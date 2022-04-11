@@ -145,16 +145,17 @@ p {
 
 }
 
-.correctAnswer {
-
-}
-
-
-
-
-
 .answers {
   display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.e {
+  position: absolute;
+  margin: -2.2rem 12.3rem;
+  font-size: xx-large;
+  color: white;
 }
 
 /* final - sonuç sayfası */
@@ -184,9 +185,14 @@ p {
   color: white;
   margin: 0.1rem 2rem;
   font-size: 0.6rem;
-  font-weight: 100;
+  font-weight: 100; 
+  font-family: 'Handlee', cursive;
+  font-style: normal;
 }
 
 .rigth-side {
   width: 100%;
+  font-family: 'Handlee', cursive;
+  font-style: normal;
+  color: white;
 }

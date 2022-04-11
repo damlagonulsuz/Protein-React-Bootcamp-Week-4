@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable linebreak-style */
 import React from 'react';
 import '../App.css';
@@ -18,6 +19,9 @@ function FinalPage() {
                     <h4>Questions: </h4>
                     <h4>Correct Answers: </h4>
                 </div>
+                <div className='start-button'>
+                    <a href='/'><Restart onClick="/"/></a>
+                </div>
             </div>
 
             <div className='rigth-side'>
@@ -30,7 +34,7 @@ function FinalPage() {
             </div>
 
 
-            <Restart/>
+            
 
 
         </div>

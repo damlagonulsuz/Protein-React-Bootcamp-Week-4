@@ -16,7 +16,7 @@ function Q(props) {
             <div className='inBoard'>
 
                 {/* <p className='correctAnswer'>{correctAnswer}</p> */}
-                <p>{props.failed1}</p>
+                
             </div>
 
 

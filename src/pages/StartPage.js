@@ -17,7 +17,6 @@ function StartPage() {
                     <a href='/Questions'><Start onClick="/Questions"/></a>
                 </div>
                 
-
             </div>
         </>
     );
